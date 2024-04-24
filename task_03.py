@@ -1,7 +1,6 @@
-with open("txt4.txt", "r") as f_1:
-    f_1 = f_1.readlines()
+with open("txt4.txt", "r+") as f:
+    lines = f.readlines()
+    f.writelines(lines[:-1])
 
-f_1.pop()
-
-with open("txt5.txt", "w") as f_2:
-    f_2 = f_2.writelines(f_1)
+with open("txt5.txt", "w") as f:
+    f.writelines(lines[-1])
