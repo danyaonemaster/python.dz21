@@ -1,2 +1,5 @@
- lololowha
- giha
+file len: 8
+Number of rows: 2
+Number of vowels: 2
+Number of consonant letters: 5
+Number of digits: 0
